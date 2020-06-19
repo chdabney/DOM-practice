@@ -45,8 +45,8 @@ bodyElement.append(inputButtonElement)
 
 //remove element button
 inputButtonElement.addEventListener("click", function () {
-    const userSelectorInput = document.getElementById("removeClass").value
-    const removeCSSElement = document.querySelector(userSelectorInput)
+    // const userSelectorInput = document.getElementById("removeClass").value
+    const removeCSSElement = document.querySelector(inputElement.value)
     removeCSSElement.remove()
 })
 
